@@ -61,7 +61,7 @@ int main (){
     printf("Insira o último Pib registrado: \n");
     scanf(" %f", &pib2);
 
-    printf("Insira a quantidade de pontos turísticos: \n\n");
+    printf("Insira a quantidade de pontos turísticos: \n");
     scanf(" %d", &pturistico2);
 
     printf("Segue abaixo os dados das 2 cartas cadastradas.\n");
@@ -84,6 +84,8 @@ int main (){
     printf("Pontos turísticos: %d\n\n", pturistico2);
 
     printf("Obrigado por vir até aqui!");
+
+    return 0
 
 
 }
